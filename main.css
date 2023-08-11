@@ -1,0 +1,42 @@
+header{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: left;
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(88, 166, 178);
+}
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li{
+        float: left;
+    }
+
+    li a {
+        display: inline;
+        background-color: rgb(48, 47, 47);
+        font-size: 16px;
+    }
+
+    li a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background-color: #111;
+    }
