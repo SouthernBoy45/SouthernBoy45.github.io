@@ -6,10 +6,35 @@ header{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+
+
+.colten_bowdoin{
+    position:absolute;
+    bottom: 100px;
+    left: 20px;
+    padding: 10px;
+}
+
+.software_dev{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    padding: 10px;
+}
+
+img{
+    display: block;
+    width: 25%;
+    height:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body{
     font-family: Arial, sans-serif;
     font-size: 20px;
     background-color: rgb(88, 166, 178);
+    text-align: center;
 }
     ul{
         list-style-type: none;
@@ -39,4 +64,23 @@ body{
 
     li a:hover{
         background-color: #111;
+    }
+
+    .section-class{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .about_me-class{
+        display: flex;
+        width: 400px;
+        border: 1px solid #000000;
+        border-color: black;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: justified;
+        background-color: rgb(84, 180, 248);
     }
