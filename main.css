@@ -1,23 +1,21 @@
 header{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 100;
     text-align: left;
     padding: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-
-
 .colten_bowdoin{
     position:absolute;
-    bottom: 100px;
+    bottom: 275px;
     left: 20px;
     padding: 10px;
 }
 
 .software_dev{
     position: absolute;
-    bottom: 0px;
+    bottom: 225px;
     left: 20px;
     padding: 10px;
 }
@@ -83,4 +81,8 @@ body{
         margin: 20px 0;
         text-align: justified;
         background-color: rgb(84, 180, 248);
+    }
+
+    .projects-class{
+        display: grid;
     }
