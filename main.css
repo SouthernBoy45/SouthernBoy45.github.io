@@ -97,4 +97,16 @@ body{
         border-color: black;
         padding: 10px;
         border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .contact_me-class{
+        border: 1px solid black;
+        border-radius: 10px;
+        border-color: black;
+        padding: 10px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
