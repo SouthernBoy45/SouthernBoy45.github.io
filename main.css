@@ -31,7 +31,7 @@ img{
 body{
     font-family: Arial, sans-serif;
     font-size: 20px;
-    background-color: rgb(88, 166, 178);
+    background-color: rgb(63 200 250);
     text-align: center;
 }
     ul{
@@ -74,13 +74,13 @@ body{
 
     .about_me-class{
         display: flex;
-        width: 400px;
-        border: 1px solid #000000;
+        width: 800px;
+        border: 3px solid #000000;
         border-color: black;
         padding: 10px;
         margin: 20px 0;
-        text-align: justified;
-        background-color: rgb(84, 180, 248);
+        border-radius: 10px;
+        background-color: rgb(222 229 228);
     }
 
     .projects-class{
@@ -98,7 +98,7 @@ body{
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 1rem;
-        background-color: darkgrey;
+        background-color: #d3d3d4;
         flex-direction: column;
     }
 
