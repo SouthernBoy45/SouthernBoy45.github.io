@@ -84,10 +84,10 @@ body{
     }
 
     .projects-class{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
+       display: grid;
+       justify-items: center;
+       grid-auto-rows: 200px;
+       grid-template-columns: repeat(3, 1fr);
     }
 
     .projects-class_1{
@@ -98,6 +98,8 @@ body{
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 1rem;
+        background-color: darkgrey;
+        flex-direction: column;
     }
 
     .contact_me-class{
