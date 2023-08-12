@@ -111,6 +111,9 @@ body{
     }
 
     .projects_container-class{
-        border: 3px solid black;
-        background-color: seashell;
+        border: 3px solid white;
+    }
+
+    .text_color-class{
+        color: white;
     }
