@@ -84,5 +84,17 @@ body{
     }
 
     .projects-class{
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .projects-class_1{
+        display: flex;
+        width: 300px;
+        border: 1px solid black;
+        border-color: black;
+        padding: 10px;
+        border-radius: 10px;
     }
